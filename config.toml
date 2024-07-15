@@ -17,6 +17,7 @@ A-w = ":buffer-close!"
 A-q = ":quit!"
 
 C-s = ":w!"
+C-r = ":reload"
 C-c = ":clipboard-yank"
 C-v = ":clipboard-paste-before"
 C-d = ["keep_primary_selection", "search_selection", "select_mode"]
@@ -35,16 +36,17 @@ A-w = ":buffer-close!"
 A-q = ":quit!"
 
 C-s = ":w!"
+C-r = ":reload"
 C-c = ":clipboard-yank"
 C-v = ":clipboard-paste-before"
 C-d = ["keep_primary_selection", "search_selection", "select_mode"]
 
 [keys.select]
 C-s = ":w!"
+C-r = ":reload"
 C-c = ":clipboard-yank"
 C-v = ":clipboard-paste-before"
 C-d = ["search_selection", "extend_search_next"]
-
 
 [editor.file-picker]
 hidden = false
