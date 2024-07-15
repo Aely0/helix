@@ -71,7 +71,7 @@
 "ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "base", bg = "flamingo", modifiers = ["bold"] }
 
-"ui.popup" = { fg = "text", bg = "base" }
+"ui.popup" = { fg = "text", bg = "base0" }
 "ui.window" = { fg = "text" }
 "ui.help" = { fg = "text", bg = "base" }
 
@@ -105,7 +105,7 @@
 
 "ui.cursorline.primary" = { bg = "selection_bg" }
 
-"ui.highlight" = { bg = "surface1", modifiers = ["bold"] }
+"ui.highlight" = { bg = "selection_bg", modifiers = ["bold"] }
 
 "ui.menu" = { fg = "text", bg = "base" }
 "ui.menu.selected" = { fg = "text", bg = "selection_bg", modifiers = ["bold"] }
@@ -125,6 +125,7 @@ hint = "teal"
 base = "#070008"
 text = "#dba3d8"
 
+base0 = "#100012"
 base1 = "#1f031d"
 
 base2 = "#4e2348"
