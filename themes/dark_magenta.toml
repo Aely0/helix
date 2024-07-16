@@ -116,7 +116,7 @@
 "diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
 
 error = "red"
-warning = "text2"
+warning = "yellow"
 info = "sky"
 hint = "teal"
 
