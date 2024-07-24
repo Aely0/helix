@@ -2,9 +2,7 @@ theme = "dark_magenta"
 
 [keys.normal]
 ret = "insert_mode"
-
-S-down = "page_cursor_half_down"
-S-up = "page_cursor_half_up"
+s = ":w!"
 
 A-down = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 A-up = [
@@ -21,13 +19,15 @@ A-q = ":quit!"
 C-left = "move_prev_word_end"
 C-right = "move_next_word_start"
 
-s = ":w!"
 C-s = ":w!"
 C-r = ":reload"
 C-c = ":clipboard-yank"
 C-v = ":clipboard-paste-before"
 C-x = [":clipboard-yank", "delete_selection"]
 C-d = ["keep_primary_selection", "search_selection", "select_mode"]
+
+S-down = "page_cursor_half_down"
+S-up = "page_cursor_half_up"
 
 [keys.insert]
 A-down = ["extend_to_line_bounds", "delete_selection", "paste_after"]
@@ -58,13 +58,14 @@ ret = "insert_mode"
 C-left = "move_prev_word_end"
 C-right = "move_next_word_start"
 
-s = ":w!"
 C-s = ":w!"
 C-r = ":reload"
 C-c = ":clipboard-yank"
 C-v = ":clipboard-paste-before"
 C-x = [":clipboard-yank", "delete_selection"]
 C-d = ["search_selection", "extend_search_next"]
+
+S-s = ":w!"
 
 [editor.file-picker]
 hidden = false
