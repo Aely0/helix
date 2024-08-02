@@ -12,6 +12,7 @@ A-up = [
   "paste_before",
 ]
 
+A-s = "save_selection"
 A-e = ":vsplit-new"
 A-w = ":buffer-close!"
 A-q = ":quit!"
@@ -52,8 +53,13 @@ C-v = ":clipboard-paste-before"
 C-x = [":clipboard-yank", "delete_selection"]
 C-d = ["keep_primary_selection", "search_selection", "select_mode"]
 
+S-down = "page_cursor_half_down"
+S-up = "page_cursor_half_up"
+
 [keys.select]
 ret = "insert_mode"
+
+A-s = "save_selection"
 
 C-left = "move_prev_word_end"
 C-right = "move_next_word_start"
@@ -66,6 +72,8 @@ C-x = [":clipboard-yank", "delete_selection"]
 C-d = ["search_selection", "extend_search_next"]
 
 S-s = ":w!"
+S-down = "page_cursor_half_down"
+S-up = "page_cursor_half_up"
 
 [editor.file-picker]
 hidden = false
