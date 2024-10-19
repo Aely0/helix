@@ -13,6 +13,7 @@ A-up = [
 ]
 
 A-s = "save_selection"
+A-r = ":hsplit-new"
 A-e = ":vsplit-new"
 A-w = ":buffer-close!"
 A-q = ":quit!"
@@ -39,6 +40,7 @@ A-up = [
   "paste_before",
 ]
 
+A-r = ":hsplit-new"
 A-e = ":vsplit-new"
 A-w = ":buffer-close!"
 A-q = ":quit!"
