@@ -65,8 +65,8 @@
 "ui.linenr" = { fg = "line_generic" }
 "ui.linenr.selected" = { fg = "text" }
 
-"ui.statusline" = { fg = "text1", bg = "base1" }
-"ui.statusline.inactive" = { fg = "text1", bg = "base" }
+"ui.statusline" = { fg = "text", bg = "base1" }
+"ui.statusline.inactive" = { fg = "text", bg = "base" }
 "ui.statusline.normal" = { fg = "base", bg = "lavender", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "base", bg = "flamingo", modifiers = ["bold"] }
