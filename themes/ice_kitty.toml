@@ -7,12 +7,12 @@
 
 "constructor" = "sapphire"
 
-"constant" = "light_purple"
-"constant.character" = "lavenderish_blue"
+"constant" = "pink_lavender"
+"constant.character" = "blue_lavender"
 "constant.character.escape" = "sapphire"
 
 "string" = "pale_lavender"
-"string.regexp" = "lavenderish_blue"
+"string.regexp" = "blue_lavender"
 "string.special" = "blue"
 "string.special.symbol" = "rosewater"
 
@@ -29,7 +29,7 @@
 "punctuation.special" = "mauve"
 
 "keyword" = "darker_lavender"
-"keyword.control.conditional" = { fg = "light_purple", modifiers = ["italic"] }
+"keyword.control.conditional" = { fg = "pink_lavender", modifiers = ["italic"] }
 
 "operator" = "mauve"
 
@@ -133,16 +133,17 @@ hint = "teal"
 rainbow = ["red", "peach", "yellow", "green", "sapphire", "lavender"]
 
 [palette]
-pink = "#f589d8"
-light_purple = "#a980de"
-lavenderish_blue = "#7f92fe"
+lavender = "#b4befe"
 darker_lavender = "#93a3fe"
 pale_lavender = "#c5cefe"
+pink_lavender = "#a980de"
+blue_lavender = "#7f92fe"
 
 dark_bg = "#08080c"
 
 rosewater = "#f5e0dc"
 # flamingo = "#f2cdcd"
+pink = "#f589d8"
 # pink = "#f5c2e7"
 mauve = "#cba6f7"
 red = "#f38ba8"
@@ -154,7 +155,6 @@ teal = "#94e2d5"
 sky = "#89dceb"
 sapphire = "#74c7ec"
 blue = "#89b4fa"
-lavender = "#b4befe"
 text = "#cdd6f4"
 subtext1 = "#bac2de"
 subtext0 = "#a6adc8"
