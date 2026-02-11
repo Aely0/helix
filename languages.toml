@@ -3,6 +3,11 @@ name = "rust"
 auto-format = true
 
 [[language]]
+name = "scss"
+formatter = { command = "prettier", args = ["--parser", "scss"] }
+auto-format = true
+
+[[language]]
 name = "css"
 formatter = { command = "prettier", args = [
   "--parser",
